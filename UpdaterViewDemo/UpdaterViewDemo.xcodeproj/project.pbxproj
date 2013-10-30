@@ -21,7 +21,7 @@
 		D715BC90181FF48700908774 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D715BC72181FF48700908774 /* UIKit.framework */; };
 		D715BC98181FF48700908774 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D715BC96181FF48700908774 /* InfoPlist.strings */; };
 		D715BC9A181FF48700908774 /* UpdaterViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D715BC99181FF48700908774 /* UpdaterViewDemoTests.m */; };
-		D715BCA9181FF4D400908774 /* DHUpdaterView.m in Sources */ = {isa = PBXBuildFile; fileRef = D715BCA8181FF4D400908774 /* DHUpdaterView.m */; };
+		D7B970091820A06000BA51CC /* DHUpdaterView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B970081820A06000BA51CC /* DHUpdaterView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +54,8 @@
 		D715BC95181FF48700908774 /* UpdaterViewDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UpdaterViewDemoTests-Info.plist"; sourceTree = "<group>"; };
 		D715BC97181FF48700908774 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D715BC99181FF48700908774 /* UpdaterViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UpdaterViewDemoTests.m; sourceTree = "<group>"; };
-		D715BCA7181FF4D400908774 /* DHUpdaterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DHUpdaterView.h; path = ../../DHUpdaterView.h; sourceTree = "<group>"; };
-		D715BCA8181FF4D400908774 /* DHUpdaterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DHUpdaterView.m; path = ../../DHUpdaterView.m; sourceTree = "<group>"; };
+		D7B970071820A06000BA51CC /* DHUpdaterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHUpdaterView.h; sourceTree = "<group>"; };
+		D7B970081820A06000BA51CC /* DHUpdaterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHUpdaterView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,8 +159,8 @@
 		D715BCA3181FF4A600908774 /* DHUpdaterView */ = {
 			isa = PBXGroup;
 			children = (
-				D715BCA7181FF4D400908774 /* DHUpdaterView.h */,
-				D715BCA8181FF4D400908774 /* DHUpdaterView.m */,
+				D7B970071820A06000BA51CC /* DHUpdaterView.h */,
+				D7B970081820A06000BA51CC /* DHUpdaterView.m */,
 			);
 			name = DHUpdaterView;
 			sourceTree = "<group>";
@@ -265,7 +265,7 @@
 			files = (
 				D715BC7F181FF48700908774 /* DHAppDelegate.m in Sources */,
 				D715BC85181FF48700908774 /* DHViewController.m in Sources */,
-				D715BCA9181FF4D400908774 /* DHUpdaterView.m in Sources */,
+				D7B970091820A06000BA51CC /* DHUpdaterView.m in Sources */,
 				D715BC7B181FF48700908774 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -475,6 +475,7 @@
 				D715BC9F181FF48700908774 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D715BCA0181FF48700908774 /* Build configuration list for PBXNativeTarget "UpdaterViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +484,7 @@
 				D715BCA2181FF48700908774 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
