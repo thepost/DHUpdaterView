@@ -10,7 +10,7 @@ A progress view with text and an activity indicator, centered in a flashing back
 To use `DHUpdaterView`:
 
 - Copy over the `DHUpdaterView` folder to your project folder.
-- Add `#import "DACircularProgressView.h"` in any class that wants to add it to view. 
+- Add `#import "DHUpdaterView.h"` in any class that wants to add it to view. 
 - Initialise and display it, as demonstrated below.
 
 ### Example Code
