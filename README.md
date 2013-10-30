@@ -3,7 +3,7 @@ DHUpdaterView
 
 A progress view with text and an activity indicator, centered in a flashing background of 2 colors. Used as an overlay in FitFriend when some kind of synchronous update occurs.
 
-![Screenshot](https://github.com/thepost/DHUpdaterView/raw/master/screenshot.png)
+![Screenshot](https://github.com/thepost/DHUpdaterView/raw/master/IMG_0035.jpg)
 
 ## Installation
 
